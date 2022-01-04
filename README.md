@@ -65,8 +65,8 @@ git commit -m "first commit"
 // 버전관리에 들어갈 설명 쓰기 
 git branch -M main
 // master => main
-git config -global user.email "7779484@naver.com"
-git config -global user.name "ShonGain"
+git config --global user.email "7779484@naver.com"
+git config --global user.name "ShonGain"
 
 git remote add origin https://github.com/ShonGain/afterClass.git
 // 업로드할 폴더와 로컬폴더를 연결
